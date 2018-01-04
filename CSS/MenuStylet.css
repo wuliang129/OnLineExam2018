@@ -1,0 +1,191 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {margin: 0;padding: 0;}
+html {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;overflow-y: scroll; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+:focus { outline:0;}
+img { border:0;}
+a{
+	text-decoration:none;}
+a img { vertical-align: middle;}
+body {background:#fff;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline;}
+.none { display:none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+/* **********************************菜单css start   ************************************************************/
+#div_menu .nav {
+    width: 100%;
+    height: 43px;
+    background:#2a63b3;
+    z-index: 1000;
+}
+#div_menu .menu {
+    width: 1101px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+#div_menu .menu .wp_nav .nav-item a {
+    font-family: "微软雅黑";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    font-size: 15px;
+}
+
+#div_menu .menu .wp_nav .nav-item a:hover {
+    color: #F3C246;
+}
+
+#div_menu .menu .wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    padding: 0px 25px;
+    line-height: 43px;
+    cursor: pointer;
+}
+
+#div_menu .menu li.nav-item.i10 span.item-name {
+    padding-right: 0px;
+}
+
+#div_menu .wp_nav { display:block; margin: 0; padding: 0;display: block; *zoom:1;}
+#div_menu .wp_nav * {margin: 0; padding: 0}
+#div_menu .wp_nav:after {clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+#div_menu .wp_nav .nav-item { display:inline-block; float:left; position:relative; vertical-align:bottom;}
+#div_menu .wp_nav .on { z-index:10;}
+#div_menu .wp_nav .nav-item .mark {display:block; width:100%; height:100%; position:absolute; left:0;top:0; z-index:99; }
+#div_menu .wp_nav .nav-item a{ font-family:"Microsoft Yahei"; display:block;text-align:center;position:relative; z-index:100;}
+#div_menu .wp_nav .nav-item a.parent:hover{}
+#div_menu .wp_nav .nav-item a.parent {color:#F3C246;}
+#div_menu .wp_nav .nav-item a span.item-name { display:inline-block; padding:5px 10px; line-height:22px;cursor:pointer;}
+#div_menu .wp_nav .sub-nav {display:block; width:100%; position:absolute; z-index:200; visibility:hidden; border:1px solid #ccc;border-top:none;}
+#div_menu .wp_nav .sub-nav .nav-item { white-space:nowrap; }
+#div_menu .wp_nav .sub-nav .nav-item .mark { background:#426EB4;}
+#div_menu .wp_nav .sub-nav .nav-item a {font-family:"Microsoft Yahei"; font-size:13px;font-weight:normal; color:#FFF;text-align:left;border-top:1px solid #205AA7;min-width: 80px;}
+#div_menu .wp_nav .sub-nav .nav-item a.parent:hover{ background:#205AA7;color:#fff;}
+#div_menu .wp_nav .sub-nav .nav-item a.parent { background:#426EB4;color:#FFF;}
+#div_menu .wp_nav .sub-nav .nav-item a span.item-name { padding:5px 10px; line-height:22px;}
+#div_menu .wp_nav .nav-item a.parent:hover span.item-name{}
+#div_menu .wp_nav .nav-item a.parent span.item-name{}
+#div_menu .wp_nav .sub-nav .nav-item a.parent:hover span.item-name{}
+#div_menu .wp_nav .sub-nav .nav-item a.parent span.item-name{}
+/********************************* 菜单css end    ******************************************************************/
+
+
+
+
+/**************** header css start   *******************************************************************/
+
+#div_menu .header {
+    width: 100%;
+    height: 165px;
+}
+
+#div_menu .head {
+    width: 1200px;
+    height: 165px;
+    margin: 0 auto;   
+}
+#div_menu .head_top {
+    width: 100%;
+    height: 37px;
+    margin: 0 auto;
+    background-color:#184785;
+}
+
+#div_menu .head_middle {
+    width: 100%;
+    height: 128px;
+    margin: 0 auto;
+    background-color:#205AA7;
+}
+
+#div_menu .head_top ul{
+    float:right;
+    padding-right:30px;
+    height:37px;
+}
+#div_menu .head_top .wp_nav .nav-item a {
+    font-family: "微软雅黑";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    font-size: 14px;
+    color: #FFF;
+}
+
+#div_menu .head_top .wp_nav .nav-item a:hover {
+    color: #F3C246;
+}
+
+#div_menu .head_top .wp_nav .nav-item a span .item-name {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+/**************** header css end  *********************************************************************/
+
+
+/**************** body css start  *********************************************************************/
+#div_body{
+    width: 100%;
+    background-color:#FFF;
+    clear:both; 
+}
+
+#div_body #div_body_maincontent{
+    width: 1200px;
+    margin: 0 auto;
+     clear:both; 
+}
+/*仅对首页管用*/
+#div_body #div_body_maincontent_Default
+{
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+}
+/**************** body css end  *********************************************************************/
+
+/**************** footer css start  *********************************************************************/
+.footer{
+    margin-top:3px;
+    width:100%px;
+    clear:both;
+}
+
+.footer_bottom{
+    width: 100%;
+    background:#2a63b3;
+    height:30px;
+}
+.footer_copyright{
+    width: 100%;
+    height:25px;
+    font-family: "微软雅黑";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    font-size: 14px;
+    color: #707070;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.footer_bottom .foot_bottom, .footer_right .foot_copyright{
+    width: 1200px;
+    margin: 0 auto;  
+}
+/**************** footer css end  *********************************************************************/

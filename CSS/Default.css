@@ -1,0 +1,216 @@
+﻿/*首页轮播图 start*/
+
+#div_body_maincontent .banner {
+    width: 1250px;
+    height: 448px;
+    margin: 0 auto;
+}
+
+#yc-mod-slider{
+    background-color:white;
+}
+
+#yc-mod-slider .wrapper {
+	width: 1250px;
+	margin: 0 auto;
+}
+.box_skitter {
+	position: relative;
+	background: none;
+}
+.box_skitter ul {
+	display: none;
+}
+.box_skitter .container_skitter {
+    overflow: hidden;
+    position: relative;
+    width: 1250px !important;
+    height: 448px !important;
+}
+.box_skitter .image {
+	overflow: hidden;
+}
+.box_skitter .image img {
+	display: none;
+}
+.box_skitter .box_clone {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	overflow: hidden;
+	display: none;
+	z-index: 20;
+}
+.box_skitter .box_clone img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.box_skitter .prev_button {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	z-index: 100;
+	width: 30px;
+	height: 60px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -30px;
+	background:url(./Image/Default/left.png) no-repeat center center !important;
+}
+.box_skitter .next_button {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	z-index: 100;
+	width: 30px;
+	height: 60px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -30px;
+	background: url(./Image/Default/right.png) no-repeat center center !important;
+}
+.box_skitter .label_skitter {
+    width: 1087px !important;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 auto;
+    position: absolute;
+    left: 53px;
+    bottom: 0px;
+    color: #000;
+    font-size: 16px;
+    padding-left: 13px;
+    z-index: 1000;
+    background: url(./Image/Default/biaoti_bj.png) repeat-x;
+	display:none !important;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	z-index: 10000;
+	margin: -16px -16px;
+	color: #fff;
+	text-indent: -9999em;
+	overflow: hidden;
+	background: url(./Image/Default/ajax-loader.gif) no-repeat left top;
+	width: 31px;
+	height: 31px;
+}
+#slideshow {
+	width: 1250px;
+	height:448px;
+	font-family: "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+#slideshow img {
+	vertical-align: top;
+}
+#slideshow ul {
+	display: none;
+}
+#slideshow .slide-month {
+    width: 1100px;
+    height: 37px;
+    line-height: 37px;
+    margin: 0px auto;
+    position: absolute;
+    left: 53px;
+    bottom: -37px;
+    z-index: 1000;
+    background: #9bb3d0;
+    color: #fff;
+	display:none !important;
+}
+.slide-month .month-nav {
+	display: none;
+	width: 37px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	color: #fff;
+	font-family: '\u5b8b\u4f53';
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	margin-top: -19px;
+	cursor: pointer;
+}
+.slide-month .month-nav:hover {
+}
+#prev-month {
+	left: 0;
+}
+#next-month {
+	right: 0
+}
+.month-text {
+	display: none;
+	float: left;
+	margin: 0 10px 0 40px;
+	height: 37px;
+	color: #fff;
+	font-size: 14px;
+}
+.month-text #cur-year {
+	display:none;
+}
+.month-text #cur-month {
+}
+.month-text #cur-day {
+	display:none;
+}
+.month-texts {
+	display:none !important;
+    display: inline-block;
+    float: left;
+    padding: 0 12px 0 12px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background: none;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: -42px;
+    color: #123c74;
+}
+.month-texts #cur-year {
+}
+.month-texts #cur-month {
+}
+.month-texts #cur-day {
+}
+.month-days {
+	display:none !important;
+	height: 37px;
+	float: left;
+	padding-left:20px;
+}
+.month-days a {
+	display: inline-block;
+	font-size: 13px;
+	width: 34px;
+	line-height: 37px;
+	text-align: center;
+	color: #fff;
+	cursor: text;
+	float: left;
+}
+.month-days a.has-event {
+	color: #fff;
+	cursor: pointer;
+}
+.month-days a.has-event:hover {
+	background: #707070;
+}
+.month-days a.cur-event {
+	color: #ffc600;
+	cursor: pointer;
+}
+
+
+/*首页轮播图 end*/

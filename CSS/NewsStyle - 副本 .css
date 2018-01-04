@@ -1,0 +1,286 @@
+﻿#div_body_maincontent_NewsContent
+{
+    width: 100%;
+    margin: 0 auto;
+    clear:both;
+}
+
+#div_body_maincontent_NewsContent .NewsContent_logo {
+    background:url(../Image/News/news_logo.png) no-repeat;
+    background-position:left center;
+    height:36px;
+    padding-left:160px;
+}
+#div_body_maincontent_NewsContent .NewsContent_logo a {
+    font-family: "微软雅黑";
+    display:inline-block;
+    text-align: left;
+    line-height:36px;
+    position: relative;
+    z-index: 100;
+    color: #000;
+    font-size: 14px;
+}
+
+#div_body_maincontent_NewsContent .NewsContent_logo a:hover {
+    color: #BD6B09;
+}
+/********新闻类别 CSS  end*********************************/
+
+
+
+#div_body_maincontent_NewsContent .NewsContent_title h1{
+    text-align: left;
+    position: relative;
+    z-index: 100;
+    padding:10px 0px 10px 0px; 
+
+    font-size:36px;
+    color:#333;
+    font-weight:bold;
+}
+
+
+#div_body_maincontent_NewsContent  .NewsContent_sourcelink{
+    margin:5px 0px 5px 0px;
+}
+#div_body_maincontent_NewsContent  .NewsContent_sourcelink_left{
+    font-family: "微软雅黑";
+    display:inline-block;
+    position: relative;
+    z-index: 100;
+    color: #000;
+    font-size: 14px;
+    text-align:left;
+    width:50%;
+}
+
+#div_body_maincontent_NewsContent  .NewsContent_sourcelink_right{
+    font-family: "微软雅黑";
+    display:inline-block;
+    position: relative;
+    z-index: 100;
+    color: #000;
+    font-size: 14px;
+    text-align:right;
+    width:50%;
+}
+
+#div_body_maincontent_NewsContent  .NewsContent_sourcelink_right a{
+    font-size: 16px;
+    color: #000;
+}
+
+#div_body_maincontent_NewsContent  .NewsContent_sourcelink_right a:hover{
+     color: #BD6B09;
+}
+    
+/********新闻标题div部分  新闻source 部分 CSS  end*********************************/
+    
+/********新闻内容和右侧广告位 css start*********************************/
+#div_body_maincontent_NewsContent .NewsContent_conteandAD {
+    width:100%;  /*1200px*/
+    margin: 0 auto;
+}
+
+#div_body_maincontent_NewsContent .NewsContent_conteandAD_left {
+     width:890px;
+     float:left;
+}
+
+#div_body_maincontent_NewsContent .NewsContent_conteandAD_left p{
+     font-family: "微软雅黑";
+     font-size: 16px;
+     text-indent:2em;
+     line-height:30px;
+     margin:10px 0px 15px 0px;
+}
+
+#div_body_maincontent_NewsContent .NewsContent_conteandAD_right {
+    width:300px;
+    float:right;
+}
+
+/********新闻内容和右侧广告位 css end*********************************/
+
+
+/******* NewsListByCategory 用户自定义控件**************************/
+
+/* 标题*/
+#div_body .NewsListByCategory{
+    width: 398px;
+height: 365px;
+float: right;
+margin: 0px;
+padding: 0px;
+margin-bottom:10px;
+}
+
+#div_body .NewsListByCategory h3{
+    float:left;
+}
+
+#div_body .NewsListByCategory h3.tit{
+    font-size: 16px;
+font-family: "微软雅黑";
+color: #272727;
+}
+
+#div_body .NewsListByCategory .biaoti {
+    height: 54px;
+line-height: 54px;
+    background: url("../Image/User/cloud.png") no-repeat scroll 70px center transparent;
+}
+
+#div_body .NewsListByCategory .more_btn {
+    float: right;
+}
+
+#div_body .NewsListByCategory .more_btn a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+/* 新闻列表*/
+#div_body .NewsListByCategory .NewsList10{
+    margin-top: 8px;
+}
+
+#div_body .NewsListByCategory .NewsList10 .wp_article_list {
+    display: block;
+    width: 100%;
+}
+#div_body .NewsListByCategory .NewsList10 ul {
+    list-style: outside none none;
+}
+
+#div_body .NewsListByCategory .NewsList10 ul .list_item {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 0px dashed #CCC;
+    vertical-align: top;
+}
+
+
+#div_body .NewsListByCategory .NewsList10 ul .list_item .pr_fields {
+    display: inline;
+    float:left;
+}
+
+#div_body .NewsListByCategory .NewsList10 ul .list_item .Article_Index {
+    display:none;
+    float: left;
+    overflow: hidden;
+}
+
+#div_body .NewsListByCategory .NewsList10 ul .list_item .Article_Title a {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+#div_body .NewsListByCategory .NewsList10 ul .list_item .ex_fields {
+    display: inline;
+    float: right;
+    color: #B9B9B9;
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+/******* NewsListByCategory 用户自定义控件  END**************************/
+
+
+
+/******* NewsListByCategory_Second 用户自定义控件 第二层**************************/
+
+/* 标题*/
+#div_body .NewsListByCategory_Second{
+    width: 398px;
+height: 254px;
+float: left;
+margin: 0px;
+padding: 0px;
+margin-bottom:10px;
+}
+
+#div_body .NewsListByCategory_Second h3{
+    float:left;
+}
+
+#div_body .NewsListByCategory_Second h3.tit{
+    font-size: 16px;
+font-family: "微软雅黑";
+color: #272727;
+}
+
+#div_body .NewsListByCategory_Second .biaoti {
+    height: 54px;
+line-height: 54px;
+    background: url("../Image/User/cloud.png") no-repeat scroll 70px center transparent;
+    border-bottom: 2px solid #1D4E92;
+}
+
+#div_body .NewsListByCategory_Second .more_btn {
+    float: right;
+}
+
+#div_body .NewsListByCategory_Second .more_btn a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+/* 新闻列表*/
+#div_body .NewsListByCategory_Second .NewsList10{
+    margin-top: 8px;
+}
+
+#div_body .NewsListByCategory_Second .NewsList10 .wp_article_list {
+    display: block;
+    width: 100%;
+}
+#div_body .NewsListByCategory_Second .NewsList10 ul {
+    list-style: outside none none;
+}
+
+#div_body .NewsListByCategory_Second .NewsList10 ul .list_item {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 0px dashed #CCC;
+    vertical-align: top;
+}
+
+
+#div_body .NewsListByCategory_Second .NewsList10 ul .list_item .pr_fields {
+    display: inline;
+    float:left;
+}
+
+#div_body .NewsListByCategory_Second .NewsList10 ul .list_item .Article_Index {
+    display:none;
+    float: left;
+    overflow: hidden;
+}
+
+#div_body .NewsListByCategory_Second .NewsList10 ul .list_item .Article_Title a {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+#div_body .NewsListByCategory_Second .NewsList10 ul .list_item .ex_fields {
+    display: inline;
+    float: right;
+    color: #B9B9B9;
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+/******* NewsListByCategory_Second 用户自定义控件  END**************************/
