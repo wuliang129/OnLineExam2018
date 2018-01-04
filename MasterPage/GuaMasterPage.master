@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="GuaMasterPage.master.cs" Inherits="_64Gua_GuaMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <link  rel="Stylesheet"  href="css/MatherStyleSheet.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div id = "header">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/_
+            cabs/flash/swflash.cab#version=6,0,29,0" style="width: 1000px; height: 150px;"> 
+            <param name="movie" value="../flash/main_head_top.swf"/> 
+            <param name="quality" value="high"/> 
+            <param name="SCALE" value="exactfit"/> 
+            <!---- 下src值填入和刚才一样的地址!----> 
+            <!---- 上value值填入flash的地址，你的flash在本机上就用相对地址!----> 
+            <embed src="../flash/main_head_top.swf"  quality="high" 　　
+　            pluginspage="http://www.macromedia.com/go/getflashplayer"
+　            type="application/x-shockwave-flash" scale="exactfit"></embed> 
+        </object> 
+        <br />
+        
+         <table width="1000" border="0" align="center" cellpadding="0" cellspacing="2" 
+            style="margin: 0px; padding: 0px; background-image: url('../indexcss/d_bg.gif');">
+          <tr>
+              <td align="center" class="td_menu" style="height: 25px">
+                  <a href="../Default.aspx">首页</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../News_Publish/NewsIndex.aspx">新闻中心</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="GuaIndex.aspx">查看64卦</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../VideoMan/Front.aspx">周易视频</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../64GuaManager/Yizhuan64GuaMan.aspx">易传</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../64GuaManager/Yijing64GuaMan.aspx">易经</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../eBook/Front.aspx">周易电子文档</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../PicManager/UserPicManIndex.aspx">周易图片库</a>&nbsp;&nbsp;
+                  |&nbsp;&nbsp;<a href="../PlayZhouyi/SuanMing.aspx">周易互动</a>&nbsp;&nbsp;
+              </td>
+          </tr>
+      </table>   
+         <table align="center" width="1000px"
+            style="padding: 0px; margin: 0px; clip: rect(-5px, auto, auto, 5%)"> 
+            <tr style="background-image: url('../indexcss/line.gif')">
+                <td width="850"> </td>
+                <td width="50px">
+                    <asp:Label ID="lab_username" runat="server" Text="Label" ForeColor="Red"></asp:Label>
+                </td>
+                <td width="50px">
+                    <asp:HyperLink ID="HyperLink2" runat="server" 
+                        NavigateUrl="~/user_loginRegister/Register.aspx">[注册]</asp:HyperLink>
+                </td>
+                <td width="50px">
+                    <asp:HyperLink ID="HyperLink3" runat="server" 
+                        NavigateUrl="~/User/UserLogin.aspx">[登录]</asp:HyperLink>
+                </td>
+            </tr>
+        </table>  
+       
+    </div>
+    
+    
+    <div id= "div_body" >
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <div id = "div_foot" >
+         <table width="1000px"  align ="center"  height="40px" bgcolor="#E6E6FA" cellspacing="0px" cellpadding="0px">
+             <tr align="center">
+                 <td width="300px">@版权所有：安阳师范学院周易数字化研发小组</td>
+                 <td width="150px">地址：安阳市弦歌大道</td>　
+                 <td width="100px">邮编：455002 </td>
+                 <td width="100px"><a >联系管理员 </a></td>
+                 <td width="100px">
+                     <asp:Image ID="Image2" runat="server" 
+                ImageUrl="~/64Gua/pic/安师标志.gif" Height="37px" Width="38px" />
+                 </td>
+             </tr>
+         </table>
+     </div>
+    </form>
+</body>
+</html>
